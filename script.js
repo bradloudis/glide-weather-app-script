@@ -1,4 +1,4 @@
-const url = `https://api.openweathermap.org/data/2.5/onecall?lat=39.017582&lon=-94.632797&exclude=minutely&units=imperial&appid=6e3bf53c19fcc30b929ad77a8b75ea60`;
+const url = `insert url and api key to google script`;
 
 /*
  * function to call weather API
