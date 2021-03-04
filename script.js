@@ -29,6 +29,7 @@ function getSevenDay() {
   const data = JSON.parse(responseJson);
   const dailyArray = data.daily;
   dailyArray.forEach((day) => {
+    const date = new Date(day.dt);
     const high = Math.round(day.temp.max).toFixed(0);
     const low = Math.round(day.temp.min).toFixed(0);
     console.log(high, low);
